@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(26, 123, 233, 0.664);
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    color: rgba(26, 123, 233, 0.893)
+}
+
+h2, h3 {
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color: rgba(255, 253, 251, 0.7);
+}
+
+p {
+    font-size: 24px;
+    color: rgba(255, 253, 250, 0.6);
+}
+
+.videogame-of-the-moment {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 35px;
+}
+
+.videogame-of-the-moment a {
+    text-decoration: none;
+    color: rgba(255, 253, 250, 0.6);
+}
+
+.videogame-of-the-moment a:hover {
+    color: rgba(255, 253, 250, 0.45);
+}
+
+.img {
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    padding-left: 35px;
+}
+
+.general-videogames {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 35px;
+}
+
+.general-videogames ul {
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+
+.general-videogames li {
+    color: rgba(255, 253, 250, 0.6);
+    font-size: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgba(26, 123, 233, 0.893);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    padding-bottom: 21px;
+}
